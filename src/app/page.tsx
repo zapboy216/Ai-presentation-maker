@@ -30,6 +30,9 @@ export default function AIPresentation() {
           performResearch={performResearch}
           setPerformResearch={setPerformResearch}
         />
+
+
+        
       </CopilotSidebar>
     </CopilotKit>
   );

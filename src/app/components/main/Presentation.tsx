@@ -29,7 +29,7 @@ export const Presentation = ({
   );
 
   /**
-   * This makes all slides available to the Copilot.
+   * This makes all slides available to  the Copilot.
    */
   useMakeCopilotReadable("These are all the slides: " + JSON.stringify(slides));
 

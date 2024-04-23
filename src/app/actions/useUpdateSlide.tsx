@@ -16,7 +16,7 @@ export default function useUpdateSlide({
       {
         name: "content",
         description:
-          "The content of the slide. Should generally consist of a few bullet points.",
+          "The content of the slide. Should generally consist of a few bullet points and a paragraph",
       },
       {
         name: "backgroundImageDescription",

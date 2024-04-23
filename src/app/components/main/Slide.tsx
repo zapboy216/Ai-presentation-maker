@@ -15,7 +15,7 @@ export const Slide = (props: SlideProps) => {
     '")';
 
   /**
-   * This action allows the Copilot to update the current slide.
+   * This action allows the Copilot to  update the current slide.
    */
   useUpdateSlide({ partialUpdateSlide: props.partialUpdateSlide });
 
