@@ -61,9 +61,9 @@ interface SpeakerNotesProps {
 
 function SlideSpeakerNotes({ spokenNarration, onChange }: SpeakerNotesProps) {
   return (
-    <div className="bg-gray-200 relative h-20 flex flex-col">
+    <div className="bg-gray-200 relative flex flex-col italic shadow-lg rounded">
       <textarea
-        className="w-full h-full bg-transparent p-2 text-base"
+        className="w-full bg-transparent p-10 my-10 text-base"
         style={{
           border: "none",
           outline: "none",
@@ -88,18 +88,18 @@ interface SlideContentProps {
 function SlideContent({ content, onChange }: SlideContentProps) {
   return (
     <textarea
-      className="flex-1 w-full text-gray-800 p-4 px-10 font-bold flex items-center line-clamp-6"
-      style={{
-        border: "none",
-        outline: "none",
-        resize: "none",
-        fontSize: "2vw",
-      }}
-      value={content}
-      placeholder="Slide content..."
-      onChange={(e) => {
-        onChange(e.target.value);
-      }}
-    />
+    className="flex-1 w-full text-gray-800 p-4 px-10 font-bold italic shadow-lg rounded-md flex items-center line-clamp-6"
+    style={{
+      border: "none",
+      outline: "none",
+      resize: "none",
+      fontSize: "1.5vw",
+    }}
+    value={content}
+    placeholder="Slide content..."
+    onChange={(e) => {
+      onChange(e.target.value);
+    }}
+  />
   );
 }
