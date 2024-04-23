@@ -13,7 +13,7 @@ export default function AIPresentation() {
     <CopilotKit url="/api/copilotkit/">
       <CopilotSidebar
         instructions={
-          "Help the user create and edit a powerpoint-style presentation." +
+          "Help the user create and edit a modern powerpoint-style presentation." +
           (!performResearch
             ? " No research is needed. Do not perform any research."
             : " Perform research on the topic.")
