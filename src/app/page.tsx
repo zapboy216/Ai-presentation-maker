@@ -15,7 +15,7 @@ export default function AIPresentation() {
         instructions={
           "Help the user create and edit a modern powerpoint-style presentation." +
           (!performResearch
-            ? " No research is needed. Do not perform any research."
+            ? " No research is needed. Do not perform research."
             : " Perform research on the topic.")
         }
         defaultOpen={true}
